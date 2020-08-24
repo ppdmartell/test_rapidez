@@ -49,7 +49,6 @@ def graficar():
     plt.title(f"Tiempo de ejecución de las funciones luego de {CANT_EJEC} iteraciones.")
     plt.xlabel('Funciones')
     plt.ylabel('Tiempo de ejecución')
-    plt.savefig('4BarPlot.png')
     plt.show()
 
 ########################## Espacio de configuración ##########################
